@@ -228,6 +228,7 @@ th {
     page-break-inside: avoid;
   }
   img {
+    height: auto;
     max-width: 100% !important;
   }
   p,
@@ -4382,12 +4383,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: white;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777;
-  background:"img/logo_inexcel.png" 
+  background:"img/logo_inexcell.png" 
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4418,11 +4419,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;

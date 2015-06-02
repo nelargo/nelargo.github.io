@@ -10,6 +10,7 @@ body {
 }
 
 .text-muted {
+    text-align: justify;
     color: #777;
 }
 
@@ -171,14 +172,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: white;
 }
 
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;    
     background-image: url(../img/logo_inexcell.png);
-    min-width: 200px;
+    width: 180px;
 }
 
 
@@ -235,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 10px 0;
+        padding: 0px 0;
         border: 0;
         background-color: white;
         -webkit-transition: padding .3s;
@@ -255,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 0px 0;
         background-color: white;
     }
 
@@ -264,19 +265,23 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
+
 header {
+    padding-top: 70px;
     margin-top: 70px;
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 }
+
 
 header .intro-text {
     padding-top: 100px;
@@ -324,8 +329,56 @@ header .intro-text .intro-heading {
     }
 }
 
+@media(max-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+@media(min-width:1200px) {
+     header .intro-text {
+        padding-top: 500px;
+        padding-bottom: 400px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
 section {
-    padding: 100px 0;
+    padding: 0px 0;
+
 }
 
 section h2.section-heading {
